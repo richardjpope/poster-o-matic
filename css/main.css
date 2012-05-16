@@ -1,0 +1,26 @@
+html {margin:0; padding:0;}
+body {font-family:"gill sans", sans-serif; padding:0; margin:0;}
+#page {width:228mm; height:323mm;position:relative;}
+.flash {color:#fff!important; overflow:hidden;}
+.flash img {position:absolute; z-index:-1; top:-10mm; left:-10mm;}
+#top-flash {height:10mm;position:relative;}
+#crest {position:absolute; top:35mm;left:5mm; z-index:-1;}
+h1 { font-weight:normal;text-transform:uppercase; font-size:18mm; text-align:center;}
+#project-description { font-size:9mm;padding:0 10mm;}
+dl {font-size:7mm;padding-left:10mm; line-height:12mm;}
+dl dt {float:left; width:9em; text-transform:uppercase; font-weight:lighter; }
+dl dd {text-transform:uppercase;}
+#team-list {font-size:6mm; padding:0 10mm;}
+#bottom-flash {position:absolute; bottom:0; left:0; right:0; padding:7mm 10mm; font-size:9mm; font-weight:lighter;
+    text-transform:uppercase;}
+#bottom-flash span {font-weight:normal;}
+
+div.colorPicker-picker {height: 16px;width: 16px;padding: 0 !important;border: 1px solid #ccc;
+    background: url('../images/arrow.png') no-repeat top right;cursor: pointer;line-height: 16px;}
+
+div.colorPicker-palette {width: 110px;position: absolute;border: 1px solid #598FEF;background-color: #EFEFEF;padding: 2px;}
+div.colorPicker_hexWrap {width: 100%; float:left }
+div.colorPicker_hexWrap label {font-size: 95%; color: #2F2F2F; margin: 5px 2px; width: 25%}
+div.colorPicker_hexWrap input {margin: 5px 2px; padding: 0; font-size: 95%; border: 1px solid #000; width: 65%; }
+
+div.colorPicker-swatch {height: 12px;width: 12px;border: 1px solid #000;margin: 2px;float: left;cursor: pointer;line-height: 12px;}
